@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Abstract</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="relative mx-auto p-6 bg-black text-white">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2">
+                <h2>Abstract helpcenter</h2>
+            </div>
+            <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block">Get
+                started</a>
+
+            <!-- Hamburger icon -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="#">Pricing</a>
+                <a href="#">Product</a>
+                <a href="#">About US</a>
+                <a href="#">Careers</a>
+                <a href="#">Comunity</a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
