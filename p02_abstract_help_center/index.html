@@ -11,36 +11,129 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="relative mx-auto p-6 bg-black text-white">
-        <!-- Flex container -->
-        <div class="flex items-center justify-between">
-            <!-- Logo -->
-            <div class="pt-2">
-                <h2>Abstract helpcenter</h2>
-            </div>
-            <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline md:block">Get
-                started</a>
 
-            <!-- Hamburger icon -->
-            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-                <span class="hamburger-top"></span>
-                <span class="hamburger-middle"></span>
-                <span class="hamburger-bottom"></span>
-            </button>
-        </div>
-        <!-- Mobile menu -->
-        <div class="md:hidden">
-            <div id="menu"
-                class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
-                <a href="#">Pricing</a>
-                <a href="#">Product</a>
-                <a href="#">About US</a>
-                <a href="#">Careers</a>
-                <a href="#">Comunity</a>
+    <nav class="bg-black border-gray-200 px-2 sm:px-4 py-4">
+        <div class="container flex flex-wrap justify-around items-center mx-auto">
+            <a href="https://flowbite.com/" class="text-2xl font-semibold whitespace-nowrap dark:text-white">
+                Abstract | Help Center
+            </a>
+            <div class="ml-96 flex -mr-8">
+                <button type="button"
+                    class="text-white border-2 rounded-lg px-6 py-2 text-xl bg-slate-900 tracking-wider">Submit a
+                    request</button>
+                <button type="button" class="ml-5 text-white rounded-lg bg-blue px-10 text-2xl py-3 tracking-wider"
+                    aria-controls="navbar-cta" aria-expanded="false">Sign in
+                </button>
             </div>
         </div>
     </nav>
+
+    <!-- How can we help -->
+    <section class="bg-gray w-full h-96">
+        <div class="grid grid-cols-1">
+            <div class="mt-24">
+                <h1 class="text-center text-black text-7xl">How can we help?</h1>
+            </div>
+            <div class="flex justify-center mt-6">
+                <form class="w-1/2">
+                    <input type="search" id="default-search"
+                        class="block p-4 pl-4 w-full text-lg text-gray-900 bg-gray-50 rounded-md border border-black hover:border-blue dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+                        placeholder="Search" required="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid -->
+
+    <section class="mx-32">
+        <div class="grid grid-cols-2 gap-2 my-32">
+            <div class="grid grid-cols-4 mb-20">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/branch.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">Using Abstract</h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Abstract lets you manage, version,<br> and document
+                        your designs in
+                        one <br>
+                        place.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 mb-20">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/people.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">Manage your account
+                    </h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Configure your account settings,<br> such as your email,
+                        profile details,<br> and password.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 mb-20">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/puzzle.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">Manage organizations, teams, and projects
+                    </h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Use Abstract organizations, teams,<br> and projects to
+                        organize your people <br> and your work.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 mb-20">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/dollar.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">
+                        Manage billing
+                    </h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Change subscriptions and payment <br> details.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/key.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">Authenticate to Abstract
+                    </h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Set up and configure SSO, SCIM, and <br> Just-in-Time
+                        provisioning.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+            <div class="grid grid-cols-4">
+                <div class="text-center py-5">
+                    <img class="h-24 w-24 float-right mr-5" src="img/chat.png" alt="Branch">
+                </div>
+                <div class="col-span-3">
+                    <h2 class="text-2xl font-semibold mt-3">
+                        Abstract support
+                    </h2>
+                    <p class="text-xl tracking-wider mt-3 mb-6">Get in touch with a human.
+                    </p>
+                    <a href="#" class="text-lg text-blue">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black w-full h-96">
+
+    </footer>
+
 </body>
 
 </html>
