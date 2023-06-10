@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Concepts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1 class="text-3xl font-bold mb-2">This is a title</h1>
+      <h2 class="text-xl font-semibold mb-1">This is a subtitle</h2>
+      <p class="text-base">This is a paragraph</p>
+      <a
+        href="#"
+        class="underline text-blue-500 hover:text-purple-500 transition decoration-wavy"
+        >This is an anchor</a
+      >
+      <div class="my-3">
+        <button
+          class="btn btn-primary bg-blue-500 rounded-lg px-4 py-2 text-white hover:bg-blue-600 transition duration-300"
+        >
+          This is a Button
+        </button>
+      </div>
+      <div class="my-3">
+        <button
+          class="btn btn-secondary bg-slate-500 rounded-lg px-4 py-2 text-white hover:bg-slate-600 transition"
+        >
+          This is a Button
+        </button>
+      </div>
+      <div>
+        <input
+          type="text"
+          class="outline-none border border-slate-400 py-1 px-2 rounded-sm mb-1 placeholder:italic"
+          placeholder="Text"
+        />
+      </div>
+      <div class="flex items-start">
+        <input
+          class="accent-purple-500 checked:bg-red-600"
+          type="checkbox"
+          id="checkbox"
+        />
+        <label
+          class="text-sm text-slate-500 ml-1 font-medium leading-3"
+          for="checkbox"
+          >Checkbox</label
+        >
+      </div>
+      <div>
+        <select class="pr-8">
+          <option>Option 1</option>
+          <option>Option 2</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
